@@ -1,0 +1,1 @@
+import {api} from './api';export const getExamples=()=>api.get('/examples').then(r=>r.data);

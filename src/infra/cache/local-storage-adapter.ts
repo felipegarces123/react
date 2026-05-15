@@ -1,0 +1,1 @@
+export class LocalStorageAdapter{set(k:string,v?:object){v?localStorage.setItem(k,JSON.stringify(v)):localStorage.removeItem(k)}get<T>(k:string):T{return JSON.parse(String(localStorage.getItem(k)))}}

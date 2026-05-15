@@ -1,0 +1,1 @@
+export type ExampleModel={id:number;name:string};

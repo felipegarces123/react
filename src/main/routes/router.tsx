@@ -1,0 +1,1 @@
+import {BrowserRouter,Routes,Route}from 'react-router-dom';import{Home}from '@/presentation/pages/Home';export default()=> (<BrowserRouter><Routes><Route path='/' element={<Home/>}/></Routes></BrowserRouter>);

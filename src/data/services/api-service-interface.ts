@@ -1,0 +1,1 @@
+export interface IApiService<P,R>{buscar(payload:P):Promise<R>;}
